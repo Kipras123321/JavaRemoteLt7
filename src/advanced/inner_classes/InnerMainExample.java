@@ -9,6 +9,8 @@ public class InnerMainExample {
         wheel.damage();
 
         System.out.println(bicycle.getMaxSpeed());
+
+
     }
 
 }
