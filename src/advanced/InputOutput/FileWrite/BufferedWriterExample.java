@@ -11,7 +11,7 @@ public class BufferedWriterExample {
     public static void main(String[] args) {
 
         try (BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(InputOutputUtils.RESULT_FILE_LOCATION))){
-            String text = "Labababa \n siandien sekmadienis ir viskas ok";
+            String text = "Labababa \n siandien sekmadienis ir viskas ok ssdsdds";
             bufferedWriter.write(text);
 
         } catch (IOException exception) {
